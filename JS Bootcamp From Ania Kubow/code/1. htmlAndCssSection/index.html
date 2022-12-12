@@ -1,0 +1,106 @@
+<!DOCTYPE html>                                                                                                                                                           <!-- This tag will tell the browser that this is a HTML 5 document. -->
+<html>                                                                                                                                                                    <!-- This will tell the browser where the HTML in the document is starting.  Currently we only have HTML in the document but technically we could have CSS or JS in here to.  The HTML tag is the root of our document.  Everything that we want to get picked up by the browser has to be placed inside this tag.  -->
+  <head>                                                                                                                                                                  <!-- This is where we store information.  This is information that is not visible in the browser. -->
+    <link rel="stylesheet" href="styles.css">                                                                                                                             <!-- The link tag will allow us to link our style sheet to our HTML file. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/c31897eb8b.js" crossorigin="anonymous"></script>
+    <title>Thomas Hanahoe Portfolio</title>                                                                                                                               <!-- This is for the name of the project.  The content in this will appear in the tab of the page and it will also turn up in search results -->
+    <meta charset="utf-8" />
+  </head>
+  <body>                                                                                                                                                                  <!-- This is where the information visible to the browser will be held.  This is where we will write all of our content for the project -->
+    <nav>
+      <img
+        class="logo"
+        src="images/profilePicture.jpg"
+        alt="Thomas Hanahoe Logo"
+      ></img>
+      <ul class="nav-bar">
+        <li class="nav-bar-main-element"><a href="#about-me">About me</a></li>
+        <li class="nav-bar-main-element"><a href="https://github.com/Le-Toc">GitHub</a></li>
+        <li class="nav-bar-main-element"><a href="pages/contact.html">Contact me</a></li>
+        <li id="nav-bar-button" class="far fa-circle-user"></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <div class="hero-info">
+        <h1 id="name">Thomas Hanahoe</h1>
+        <p>I am a proffesional Software Developer and Youtuber. I love to teach anyone and everyone how to code.</p>
+        <div class="styled-break"></div>
+        <div class="button">Hire me</div>
+      </div>
+      <div>
+        <img
+          class="hero-image"
+          src="images/working-illustration.jpg"
+          alt="working illustration of a man"
+        />
+      </div>
+    </div>
+    <section>
+      <div class="about-me">
+        <img
+          class="avatar"
+          src="images/profilePicture.jpg"
+          alt="Thomas Hanahoe headshot"
+        />
+      </div>
+      <div class="info">
+        <h2><a name="about-me">About Me</a></h2>
+        <p>Born in Poland and arised in the United Arab Emirates, I discovered my passion for software development when building my first e-commerce website</p>
+      </div>
+    </section>
+    <section>
+      <i class="far fa-circle-user"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+      <i class="far fa-bell"></i>
+    </section>
+    <section>
+      <form>
+        <h2>Contact Me</h2>
+        <div class="input-section">
+          <div class="input-group">
+            <label for="first-name">First name:</label>
+            <input type="text" id="first-name" name="first-name" value="John"></input>
+          </div>
+          <div class="input-group">
+            <label for="second-name">Last name:</label>
+            <input type="text" id="last-name" name="last-name" value="Doe"></input>
+          </div>
+        </div>
+        <div class="input-section"></div>
+          <input type="radio" id="office" name="office" value="office"></input>
+          <label for="office">Office</label>
+          <input type="radio" id="remote" name="remote" value="remote"></input>
+          <label for="remote">Remote</label>
+          <input type="radio" id="other" name="other" value="other"></input>
+          <label for="other">Other</label>
+        </div>
+        <div class="input-section"></div>
+          <input type="checkbox" id="contract" name="contract" value="contract"></input>
+          <label for="contract">Contract work</label>
+          <input type="checkbox" id="full-time" name="full-time" value="full-time"></input>
+          <label for="full-time">Full-time</label>
+          <input type="checkbox" id="sponsorship" name="sponsorship" value="sponsorship"></input>
+          <label for="sponsorship">Sponsorship</label>
+        </div>
+        <input class="button" type="submit" value="submit"></input>
+      </form>
+    </section>
+    <footer>
+      <ul style="line-height: 150%;">
+        <li><a href="">About me</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="https://github.com/Le-Toc">GitHub</a></li>
+      </ul>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+ 

@@ -1,0 +1,10 @@
+body {
+    background-color: lightcoral;
+}
+
+.circle {
+    background-color: lightseagreen;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
